@@ -90,8 +90,8 @@ sys_uptime(void)
   return xticks;
 }
 
-// Add getreadcount to system calls list
-// This system call just calls for the function getreadcount
+// Add getreadcount and resetreadcount to system calls list
+// These system calls just call for the function
 int
 sys_getreadcount()
 {
