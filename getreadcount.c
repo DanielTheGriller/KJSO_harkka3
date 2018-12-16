@@ -1,7 +1,6 @@
 #include "types.h"
 #include "stat.h"
 #include "user.h"
-#include "fcntl.h"
 
 // Funtion to call getreadcount from xv6 terminal
 int
